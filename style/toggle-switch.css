@@ -1,0 +1,36 @@
+.toggle-switch {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 9px 14px 0 0;
+    color: var(--white);
+  }
+  
+  .toggle-switch-border {
+    display: inline-flex;
+    align-items: center;
+    width: 60px;
+    height: 36px;
+    border: 1px solid var(--colorButton); 
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-inline-start: 8px;
+  }
+  
+  .toggle-switch input {
+    display: none;
+  }
+  
+  .toggle-switch-dot {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--colorButton);
+    transform: translate3d(3px, 0, 0);
+    transition: transform .1s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .toggle-switch input:checked + * .toggle-switch-dot {
+    transform: translate3d(26px, 0, 0);
+  }

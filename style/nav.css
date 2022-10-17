@@ -1,0 +1,131 @@
+.navWrapper{
+    background-color: var(--greenOlive);
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+nav{
+    position: relative;
+    width: fit-content;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0, .1);
+    
+}
+
+nav a{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background-color: var(--colorButton);
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+nav a:nth-child(1){
+    width: 100px;
+}
+
+nav .start-home, a:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 0;
+}
+
+nav a:nth-child(2){
+    width: 110px;
+}
+
+nav a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 100px;
+}
+
+nav a:nth-child(3){
+    width: 100px;
+}
+
+nav a:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 210px;
+}
+
+nav a:nth-child(4){
+    width: 100px;
+}
+
+
+nav a:nth-child(4):hover~.animation{
+    width: 100px;
+    left: 310px;
+}
+
+
+nav a:nth-child(5){
+    width: 80px;
+}
+
+nav a:nth-child(5):hover~.animation{
+    width: 80px;
+    left: 410px;
+}
+
+@media screen and (max-width:600px){
+    .nav{
+        display: none;
+    }
+
+    .mobileNav{
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        background-color: var(--greenOlive);
+        width: 100%;
+        height: 40px;
+        color: var(--white);
+    }
+    
+    .mobileNav ul li{
+      display: inline;
+      padding: 10px;
+    
+    }
+}
+
+@media screen and (min-width:600px) {
+    .mobileNav{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

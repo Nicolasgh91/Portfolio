@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+/*  ---Codigo general---  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Comfortaa', cursive;
+}
+
+a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+    /* Colores base */
+  /*background nav - blue 
+    --bluebackground: #34495e;
+  */
+
+--greenOlive: var(--light-greenOlive);
+--white: var(--light-white);
+--creamWhite: var(--light-creamWhite);
+--mainBackground: var(--light-mainBackground);
+--colorButton: var(--light-buttonGreenOlive);
+
+
+--light-greenOlive: #556b2f80;
+--light-white: #000000;
+--light-creamWhite: #ebeef0;
+--light-mainBackground: #ffffff;
+--light-buttonGreenOlive: #556b2f80;
+
+--dark-greenOlive: #34495e;
+--dark-white: #ffffff;
+--dark-creamWhite: #34495e;
+--dark-mainBackground: #34495e;
+--dark-buttonGreenOlive: #ffffff;
+
+
+background-color: var(--mainBackground);
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  background-color: var(--greenOlive);
+  color: white;
+  padding: 1rem 0;
+  padding-left: 38px;
+}
+
+.attributionLinks{
+  color: white;
+  padding: 0 0.5rem;
+  font-style: italic;
+}
+
+/*  ---Codigo general---  */
+
+/* Box-shadow para tarjetas
+box-shadow: 1px 0px 31px -9px rgba(46,20,20,0.75);
+-webkit-box-shadow: 1px 0px 31px -9px rgba(46,20,20,0.75);
+-moz-box-shadow: 1px 0px 31px -9px rgba(46,20,20,0.75);
+*/
+
+/*  ---Inicio Nav---  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--greenOlive);
+    width: 100%;
+    color: var(--white);
+}
+
+nav ul li{
+  display: inline;
+  padding: 10px;
+
+}
+
+/*  ---Fin Nav---  */
+
+main{
+    display: inline-block;
+    height: 100%; /*Modificar a contenido dsp*/
+    width: 100%;
+    font-size: 1.2rem;
+    color: var(--white);
+    
+}
+
+/* Inicio Sección skills anulada por el momento 
+
+.skills{
+    width: 100%;
+    height: 30%;
+    background-color: blanchedalmond;
+}
+
+
+
+  Fin Sección skills anulada por el momento */  
+
+/*  ---Inicio sección sobre mi---  */
+
+.aboutMe{
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.aboutMe p{
+  margin: 10px 20px;
+  font-size: 1.2rem;
+  
+
+}
+
+/*  ---Fin sección sobre mi---  */
+
+/*  ---Inicio sección de estudios---  */
+
+.studies{
+ width: 100%;
+ height: fit-content;
+ padding: 5px 0;
+ margin: 5px 0;
+}
+
+.studyCards{
+  border-radius: 5px;
+  background-color: var(--creamWhite);
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 1px 0px 31px -9px rgba(46,20,20,0.75);
+  -webkit-box-shadow: 1px 0px 31px -9px rgba(46,20,20,0.75);
+  -moz-box-shadow: 1px 0px 31px -9px rgba(46,20,20,0.75);
+
+}
+
+.skillsIcons{
+  height: 20px;
+  width: 20px;
+}
+
+/*  ---Fin sección de estudios---  */
+h2{
+    padding: 20px 0 5px 0;
+    margin-left: 20px;
+}
+
+h6{
+    font-size: 1.4rem;
+    margin: 10px 0 5px 0;
+}
+
+
+/*  ---Footer---  */
+
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--greenOlive);
+    color: white;
+    margin-top: 40px;
+}
+footer h2{
+  display: flex;
+  justify-content: center;
+  margin-left: 37px;
+}
+
+footer ul li a{
+  
+  margin: 5px;
+  color: var(--white);
+}
+
+footer ul li{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
