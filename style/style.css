@@ -155,8 +155,7 @@ main{
 
 /*  ---Fin sección de estudios---  */
 h2{
-    padding: 20px 0 5px 0;
-    margin-left: 20px;
+    padding: 20px 0 5px 20px;
 }
 
 h6{
@@ -173,27 +172,30 @@ footer{
     background-color: var(--greenOlive);
     color: white;
     margin-top: 40px;
-}
-footer h2{
-  display: flex;
-  justify-content: center;
-  margin-left: 37px;
-}
-
-footer ul li a{
-  
-  margin: 5px;
-  color: var(--white);
-}
-
-footer ul li{
-  list-style: none;
-  display: flex;
+    display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
+h3{
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+footer ul li a{
+  color: var(--white);
+}
+
+footer ul li{
+  list-style: none;
+  margin: 5px 0;
+
+}
+footer ul{
+  margin: 0;
+  padding: 0;
+}
 
 
 
